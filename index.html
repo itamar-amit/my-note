@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Mission</title>
+</head>
+<body id="body">
+    <div id="bar">
+        <div id="bgc">
+            <button id="bgcB" onclick="dark()">מצב לילה</button>
+        </div>   
+        <div id="language">
+            <input id="Engilsh" type="radio" name="lang" ><span id='xx'> Engilsh</span>
+            <input id="Hebrow" type="radio" name="lang" ><span  id='xx2'> עברית</span>
+        </div>
+    </div>
+    <h1 id="title"></h1>
+    <div id="all_site">
+        <form id="form">
+            <div id="allData">
+                <label id="dataDis"></label>
+                <textarea  id="data" cols="30" rows="10" ></textarea>
+            </div>
+            <div id="allDate">  
+                <label id="dateDis"></label>
+                <input id="date" type="date" required>
+                <label id="timeDis"></label>
+                <input id="time" type="time">
+            </div>
+            <div id="allBtn">
+                <button id="save"></button>
+                <button id="reseFt"></button>
+            </div>
+        </form>
+        <div id="all_notes"></div>
+    </div>
+    <div id="footer">
+        <p>
+            Created By Itamar Amit 😎😎
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+html,body,h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0px;
+    padding: 0px;
+}
+#body
+{
+    height: 100vh;
+    width: 100vw; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#bar
+{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#bgcB
+{
+    margin: 15px;
+    padding: 5px;
+}
+#language
+{
+    margin: 15px;
+    padding: 5px;
+}
+#title
+{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+}
+#all_site
+{
+    height: 83%;
+}
+#form
+{
+    height: 25%;
+}
+#allData
+{
+    height: 60%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+#dataDis
+{
+    padding: 5px;
+}
+#data
+{
+    background-color: rgb(245, 239, 239);
+    height: 60px;
+    min-width: 650px;
+}
+
+#allDate
+{
+    height: 10%;
+    text-align:center;
+    padding: 5px;
+}
+#allBtn
+{
+    height: 10%;
+    text-align:center;
+    padding: 5px;
+}
+#all_notes
+{
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.divNote{
+    border: 1px solid black;
+    width: 400px;
+    margin: 40px;
+    padding: 10px;
+    background-color: rgb(248, 231, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    word-wrap: break-word;
+}
+#footer
+{
+    height: 2.5%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(133, 108, 85);
+}
